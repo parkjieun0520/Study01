@@ -7,26 +7,33 @@
             body {
                 background-color:beige;
                 margin: 0;}
+            h1 {
+                text-align: center;
+            }
             p{
                 text-align: justify;
                 border:1px solid gray;
                 margin-block-end: 0em;
-                margin-block-start: 0em;
-            }
+                margin-block-start:0em;
+             }
+             .title {
+                color : blueviolet;
+                margin :0;
+             }
         </style>
 </head>
 
 <body>
     <h1>STUDY DAY01</h1>
  
-<ol>
-    <li>Internet </li>
+<ol class="title"> 
+    <li>Internet</li>
     <li>Html</li>
     <li>CSS </li>
 </ol>   
 <p><h1><label for ="">INTERNET</label>
     <input type ="text"></h1>
-
+   
 <li>How does the internet work?</li><br>
 
         2대의 컴퓨터가 서로 정보를 주고 받는 순간
@@ -93,7 +100,7 @@
         <li>header	화면의 상단에 위치하는 사이트나 문서의 전체적인 정보를 정의</li>
         <li>main	문서에서 가장 중심이 되는 컨텐츠를 정의</li>
         <li>mark	참조나 하이라이트 표시를 필요로 하는 문자를 정의</li>
-        <li>nav	문서의 네비게이션 항목을 정의</li>
+        <li>nav	    문서의 네비게이션 항목을 정의</li>
         <li>section	문서의 구획들을 정의 (참고)</li>
         <li>time	시간을 정의</li>
         <li>Examples of non-semantic elements: div and span- Tells nothing about its content.</li></ol>
@@ -110,15 +117,17 @@
 <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"
     target="_blank" title="Go to W3C"> Learn the basics</a></li>
         CSS는 HTML을 아름답게 꾸며주는 디자이너의 언어 <br>
+        CSS should use "STYLE tag or attribute"<br>
             Selector / Declaration / Property / Property value
             <div><img src="/home/jieun/바탕화면/study/스크린샷, 2020-08-01 11-38-14.png" width = "1000" alt="My test image" ></div>
         선택하고 (선택자) Selector
         선택한 대상에게 효과를 줘야 합니다. (선언) Declaration<br>
+
 <ol>
     <li> Universal Selector : 전체 선택자 *, ns|*, *|*, |*</li>
     <li> Tag Selector : 태그 선택자 elementname</li> 
-    <li> Class Selector : 클래스 선택자 .classname</li>
     <li> ID Selector : ID 선택자 #idname </li>
+    <li> Class Selector : 클래스 선택자 .classname</li>
     <li> Combinator : 결합자는 "A는 B의 자식", "A는 B와 인접 요소"처럼, 두 개 이상의 선택자끼리 관계를 형성 </li>
     <li> Attribute Selector : 속성 선택자 [attr=value]</li>
 </ol>   
